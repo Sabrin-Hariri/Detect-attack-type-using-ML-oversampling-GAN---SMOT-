@@ -1,4 +1,4 @@
-# Detect-attack-type-using-ML-oversampling-GAN---SMOT-
+# Detect-attack-type-using-ML-oversampling-GAN *SMOT
 
 1. Overview:
 Cyberattack detection relies on machine learning (ML) to analyze network traffic and identify malicious patterns. However, attack datasets are often imbalanced, meaning some attack types appear far less frequently than normal traffic, leading to poor classification performance.
@@ -15,10 +15,15 @@ GAN (Generative Adversarial Networks):
 Uses deep learning to create realistic synthetic data.
 Consists of a Generator (creates fake data) and a Discriminator (distinguishes real from fake).
 More effective for complex, non-linear datasets.
+
 3. Implementation Steps:
 
-Data Preprocessing: Clean and prepare the dataset (e.g., NSL-KDD, CICIDS2017).
-Analyze Class Distribution: Identify if minority classes need balancing.
+Data Preprocessing: Clean and prepare the dataset that is collection from 3-dataset 
+### **CIC APT IIoT Dataset 2024**: https://www.unb.ca/cic/datasets/iiot-dataset-2024.html
+### **CIC IoT-DIAD 2024 dataset**: https://www.unb.ca/cic/datasets/iot-diad-2024.html
+### **CIC-BCCC-NRC TabularIoTAttack-2024**: https://www.unb.ca/cic/datasets/tabular-iot-attack-2024.html
+
+analyze Class Distribution: Identify if minority classes need balancing.
 Apply Oversampling:
 Use SMOTE for structured, low-dimensional data.
 Use GAN for high-dimensional, complex data.
