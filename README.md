@@ -17,8 +17,8 @@ Consists of a Generator (creates fake data) and a Discriminator (distinguishes r
 More effective for complex, non-linear datasets.
 
 3. Implementation Steps:
-
-Data Preprocessing: Clean and prepare the dataset that is collection from 3-dataset 
+   
+Data preprocessing: Cleaning and preparing the dataset collected from three datasets
 ### **CIC APT IIoT Dataset 2024**: https://www.unb.ca/cic/datasets/iiot-dataset-2024.html
 ### **CIC IoT-DIAD 2024 dataset**: https://www.unb.ca/cic/datasets/iot-diad-2024.html
 ### **CIC-BCCC-NRC TabularIoTAttack-2024**: https://www.unb.ca/cic/datasets/tabular-iot-attack-2024.html
